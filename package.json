@@ -1,0 +1,23 @@
+{
+  "name": "ppcQ3Brief_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keownrwk/ppcQ3Brief.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keownrwk/ppcQ3Brief/issues"
+  },
+  "homepage": "https://github.com/keownrwk/ppcQ3Brief#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

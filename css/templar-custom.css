@@ -1,0 +1,213 @@
+/*This file contains customizations for Templar MediSync template package.
+You MUST use an editor that performs syntax checkin on CSS. This will save you many hours of wasted time due to stupid mistakes.
+The styles in this file are generally not overrides if styles set in the main templar.css file. If you need to override, you may need to use the !important attribute
+*/
+
+body  {
+    background: #999;
+
+
+}
+
+.content-frame {
+    /*background: #0290bb;*/
+    border: #6086a3 solid 5px;
+    background: transparent url(../images/QuarterlyBrief_Slide.png) no-repeat 0px;
+    background-size: cover;
+
+}
+
+#titleText  {
+    font-family:"HelveticaNeueW01-75Bold";
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    line-height: 110%;
+    margin: 0 0 13px 0;
+
+}
+
+.presenter {
+    font-size: 10px;
+    color: #FFFFFF;
+    margin: 3px 0 0;
+    font-family:'HelveticaNeueETW01-65Md';
+
+
+}
+
+.presenter_title {
+    color: white;
+    font-size: 10px;
+    margin-top: 1px;
+    line-height: 11px;
+    text-shadow: #666 1px 1px 2px;
+    font-family:'HelveticaNeueETW01-55Rg';
+}
+
+.affiliation {
+    font-size: 11px;
+    line-height: 110%;
+    margin:  1px 0 13px 0;
+    color: #FFFFFF;
+}
+
+/*slides-frame core styles*/
+.landscape-smallvideo .slides-frame {
+    position:absolute;
+    top: 9px;
+    left: 47px;
+    border-radius: 0 0 9px 9px;
+    box-shadow: 0 0 10px black;
+    height: 393px;
+
+
+}
+
+/*Media Controller Styles*/
+.media-controls {
+    height: 38px;
+    margin-top: 2px;
+    padding: 0 0 0 0;
+    background: #1c2172; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4c2020 0%, #49616d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c2020), color-stop(100%,#49616d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4c2020 0%,#49616d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4c2020 0%,#49616d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4c2020 0%,#49616d 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #4c2020 0%,#49616d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c2020', endColorstr='#49616d',GradientType=0 ); /* IE6-9 */
+
+
+    /* -webkit-border-radius: 0 0 5px 5px; */
+    -webkit-border-bottom-left-radius: 9px;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius: 0 0 9px 9px;
+    border-radius: 0 0 9px 9px;
+
+    position: absolute;
+    top: 365Ωpx;
+    left: 15px;
+    color: #fff;
+    font-size: 11px;
+}
+.media-controls-inner
+{
+    height: 33px;
+    -webkit-border-bottom-left-radius: 9px;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius: 0 0 9px 9px;
+    border-radius: 0 0 9px 9px;
+
+    border-bottom: 1px solid #555;
+}
+
+/*Video frame styles*/
+.landscape-smallvideo .video-display-abs {
+    top: 89px;
+    left: 26px;
+    height: 210px;
+    /*  border: 4px solid #1e2171;
+      border-radius: 8px;
+      -moz-border-radius: 8px;
+      -webkit-border-radius: 8px;*/
+    -moz-box-shadow: 0px 0px 10px black;
+    -webkit-box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px black;
+
+    /*   -webkit-box-shadow: #000 3px 3px 4px;
+        -moz-box-shadow: #000 3px 3px 4px;
+        box-shadow: #000 3px 3px 4px;*/
+}
+
+/*Button styles*/
+.left-btn-container {
+    -moz-box-shadow: inset 1px 1px 0px 0px #bee2f9;
+    -webkit-box-shadow: inset 1px 1px 0px 0px #bee2f9;
+    box-shadow: inset 1px 1px 0px 0px #bee2f9;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5b82a9), color-stop(1, #303240) );
+    background: -moz-linear-gradient( center top, #5b82a9 5%, #303240 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d14b51', endColorstr='#303240');
+    background-color: #5b82a9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #54585b;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'HelveticaNeueW01-67MdCn 692710';
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 29px;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px #000000;
+}.left-btn-container:active {
+      position:relative;
+      top:1px;
+
+  }
+.left-btn-container.single {
+    padding-top: 11px;
+    height: 18px;
+    color: #FFFFFF;
+    margin: 5px auto 0 auto;
+
+}
+
+.panel-only {
+    top: 55px !important;
+    left: 96px !important;
+
+}
+
+.photos {
+position: relative;
+    left: 15px;
+    top: 63px;
+    width: 33%;
+
+}
+
+.photos .speaker {
+    margin-bottom: 35px;
+    font-family: 'HelveticaNeueW01-67MdCn 692710';
+
+}
+
+.photos img {
+    display: block;
+    width: 100px;
+    padding-right: 15px;
+    float: left;
+}
+
+.photos .image-title {
+    padding: 5px;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+}
+
+.speaker .position {
+    font-size: 15px;
+    font-weight: bold;
+    color: #bee2f9;
+}
+
+.speaker .name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content-frame-overlay {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 528px;
+    background: rgba(0,0,0,0.4);
+    padding: 0;
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 990px;
+}

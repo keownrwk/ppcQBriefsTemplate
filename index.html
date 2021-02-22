@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- MediSync Templar v1.0 Copyright 2013 All Rights Reserved  Medipix Productions LLC by Rob Keown, rob@medipix.com.-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="edge"/>
+
+    <title>Loading Presentation</title>
+
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <link rel="apple-touch-icon" href="images/medipixlogo_homescreen.png" type="image/png"/>
+    <link href="css/templar.css" rel="stylesheet"/>
+    <link href="css/templar-custom.css" rel="stylesheet"/>
+    <link href="css/jquery-ui-1.10.0.custom.min.css" rel="stylesheet"/>
+
+
+    <script src="js/jquery-1.9.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+
+    <!--   <script src="js_source/templar.js"></script>-->
+    <script src="js_source/templar.js"></script>
+    <script src="js/jquery.animate-enhanced.min.js"></script>
+    <script src="js/jquery.mobile.fastButtons.js"></script>
+
+
+    <!--[if gte IE 9]>
+    <style type="text/css">
+        .gradient {
+            filter: none;
+        }
+    </style>
+    <![endif]-->
+    <style type="text/css">
+
+    </style>
+</head>
+<body class="landscape-smallvideo">
+<div id="pre-loader"></div>
+<div id="container">
+
+
+    <div id="player-container" class="player-container">
+
+
+        <div class="content-frame">
+            <div class="content-frame-overlay">
+
+                <div class="photos">
+                    <div class="speaker">
+                        <img src="images/new_sax_photo.jpg" width="200" alt="Dr. Paul Sax, MD Photo">
+                        <div class="image-title">
+                            <span class="position">Faculty Chair</span><br/>
+                            <span class="name">Paul Sax, MD</span><br/>
+                            Clinical Director<br/>
+                            Division of Infectious Diseases<br/>
+                            Brigham and Women’s Hospital<br/>
+                            Professor of Medicine<br/>
+                            Harvard Medical School
+                        </div>
+                    </div>
+                    <div class="speaker" style="margin-top: 60px;">
+                        <img src="images/Wooten_Darcy_12-2020.jpg" width="200" alt="Darcy Wooten, MD, MS Photo">
+                        <div class="image-title">
+
+                            <span class="position">Guest Faculty</span><br/>
+                            <span class="name">Darcy Wooten, MD, MS</span><br/>
+                            Associate Professor of Medicine<br/>
+                            University of California, San Diego
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="titleText"></div>-->
+
+
+                <div id="video1-frame" class="video-display-abs">
+                    <video id="video1-view" playsinline width="10" height="10" type="video/mp4"></video>
+
+                </div>
+
+
+                <div id="left-column">
+
+                    <div id="show-info">
+                        <!-- <div id="show-info-wrapper"></div>-->
+
+                    </div>
+
+                </div>
+                <div id="btn-container">
+                    <div class="left-btn-container single">Slide Index</div>
+                    <!--<div class="left-btn-container single">Main Menu</div>-->
+                    <!--                  <div class="left-btn-container single">Main Menu</div>-->
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- end left column -->
+
+        <div id="slides-wrapper">
+            <div id="slides-frame" class="slides-frame">
+                <span class="arrow back"><a href="javascript: void(0)">«</a></span>
+                <span class="arrow forward"><a href="javascript: void(0)">»</a></span>
+
+                <div id="unzoom-click">Click Slide to Unzoom</div>
+                <div id="slide-display" class="slide-display">
+
+                </div>
+                <div id="slide-sorter" class="slide-sorter">
+
+                </div>
+                <div id="video1-controls" class="media-controls">
+                    <div class="media-controls-inner">
+
+                        <div id="video1-prevSlide" class="media-prevSlide" title="Previous Slide">
+                            <span class="prevSlide player-font hover-control">7</span>
+                        </div>
+
+
+                        <div id="video1-playpause" class="media-playpause" title="Play/Pause">
+                            <span class="play player-font hover-control">4</span>
+                            <span class="pause player-font hover-control" style="display:none;">;</span>
+                        </div>
+
+                        <div id="video1-nextSlide" class="media-nextSlide" title="Next Slide">
+                            <span class="nextSlide player-font hover-control">8</span>
+                        </div>
+
+
+                        <div id="video1-mute" class="media-mute" title="Mute">
+                            <span class="mute hover-control">mute</span>
+                            <span class="unmute hover-control" style="display:none;">unmute</span>
+                        </div>
+
+                        <div id="video1-toggle-transcript" class="media-toggle-transcript" title="Toggle Transcript">
+                            <span class="transcript-on">hide cc</span>
+                            <span class="transcript-off" style="display:none;">show cc</span>
+                        </div>
+
+                        <div id="video1-progress-wrapper" class="media-progress-wrapper">
+                            <div id="video1-loaded" value="0" max="100" class="media-loaded"></div>
+                            <div id="video1-progress" value="0" max="100" class="media-progress"></div>
+                            <span class="media-progress-handle"></span>
+                        </div>
+
+                        <div id="video1-fullscreen" class="media-fullscreen"></div>
+                        <div id="video1-slideZoom" title="Zoom Slide" class="media-slideZoom player-font hover-control">L</div>
+
+                    </div>
+                    <span id="video1-currentTime" class="media-currentTime mb">00:00</span><span id="video1-duration"
+                                                                                                 class="media-duration mb">00:00</span>
+                    <span id="video1-slideCount" class="media-slideCount mb">Slide 1 of --</span>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+
+        <div style="clear:both;"></div>
+        <div id="info"></div>
+
+    </div>
+</div>
+
+<div class="orientations">
+    <a id="orientation-smallvideo" href="javascript:void(0);"><img src="images/widescreen-smallvideo.png" alt="Small Video Icon"/></a>
+    <a id="orientation-largevideo" href="javascript:void(0);"><img src="images/widescreen-largevideo.png" alt="Large Video Icon"/></a>
+    <a id="orientation-portrait" href="javascript:void(0);"><img src="images/portrait.png" alt="Portrait Icon"/></a>
+</div>
+
+
+<div id="message-box1" class="message-box">
+    <div class="message-box-inner">
+        <div class="message-box-header">
+            <div class="message-box-title">Message</div>
+            <div class="message-box-close">X</div>
+        </div>
+        <div class="message-box-content">Content</div>
+    </div>
+</div>
+
+
+<div class="alpha50" id="debugBox">
+
+    <div id="big-play"></div>
+
+
+</div>
+</div>
+
+<!-- end container -->
+</body>
+
+</html>
