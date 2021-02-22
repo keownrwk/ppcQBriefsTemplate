@@ -389,7 +389,7 @@ b {
 	box-shadow: #333 0 1px 3px;
 	color: #fff;
 	background-color: #FFFFFF;
-	background-image: url(../images/mediplay_generic_50pxH.png);
+	background-image: url(../images/test/mediplay_generic_50pxH.png);
 	background-position: top;
 }
 .video-selector label
@@ -507,7 +507,7 @@ b {
 
 
 .media-mute .mute  {
-	 background: url(../images/button-soundison.png) no-repeat center top;
+	 background: url(../images/test/button-soundison.png) no-repeat center top;
 	/* background: transparent url(svg/button-soundisoff.svg) top left no-repeat; */
 	padding: 0;
 	margin: 0;
@@ -527,7 +527,7 @@ b {
 	width: 20px;
 	height: 20px;	
 	text-indent: -9999px;	
-	background: transparent url(../images/button-soundisoff.png) top left no-repeat;
+	background: transparent url(../images/test/button-soundisoff.png) top left no-repeat;
 }
 
 .media-toggle-transcript  
@@ -549,7 +549,7 @@ b {
 	width: 20px;
 	height: 20px;	
 	text-indent: -9999px;
-	background: transparent url(../images/button-transcripton.png) top left no-repeat;
+	background: transparent url(../images/test/button-transcripton.png) top left no-repeat;
 }
 .media-toggle-transcript .transcript-off
 {
@@ -557,7 +557,7 @@ b {
 	width: 20px;
 	height: 20px;	
 	text-indent: -9999px;	
-	background: transparent url(../images/button-transcriptoff.png) top left no-repeat;
+	background: transparent url(../images/test/button-transcriptoff.png) top left no-repeat;
 }
 .media-prevSlide
 {
