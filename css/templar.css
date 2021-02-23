@@ -507,7 +507,7 @@ b {
 
 
 .media-mute .mute  {
-	 background: url(../images/test/button-soundison.png) no-repeat center top;
+	 background: url(../images/button-soundison.png) no-repeat center top;
 	/* background: transparent url(svg/button-soundisoff.svg) top left no-repeat; */
 	padding: 0;
 	margin: 0;
@@ -527,7 +527,7 @@ b {
 	width: 20px;
 	height: 20px;	
 	text-indent: -9999px;	
-	background: transparent url(../images/test/button-soundisoff.png) top left no-repeat;
+	background: transparent url(../images/button-soundisoff.png) top left no-repeat;
 }
 
 .media-toggle-transcript  

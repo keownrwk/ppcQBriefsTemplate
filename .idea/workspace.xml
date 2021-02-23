@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="448a0ccb-20f6-4233-b87f-cfdc24534ef7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/test/button-soundisoff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/test/button-soundison.png" afterDir="false" />
+    <list default="true" id="448a0ccb-20f6-4233-b87f-cfdc24534ef7" name="Default Changelist" comment="Replaced mis-deleted files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/templar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_flat_0_eeeeee_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_flat_55_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_highlight-soft_25_0073ea_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_highlight-soft_50_dddddd_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_0073ea_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_228ef1_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_666666_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_ef8c08_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_ff0084_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_ffd27a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/rating.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/rating_large.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test/button-soundisoff.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/button-soundisoff.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test/button-soundison.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/button-soundison.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +88,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/images" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/images/test" />
       <recent name="$PROJECT_DIR$/js_source/test" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/css/test" />
-      <recent name="$PROJECT_DIR$/js_source/jquery-ui-1.8.17.custom(1)" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +104,9 @@
       <option name="presentableId" value="Default" />
       <updated>1614015238917</updated>
       <workItem from="1614015240154" duration="751000" />
-      <workItem from="1614016078469" duration="6691000" />
+      <workItem from="1614016078469" duration="6960000" />
+      <workItem from="1614094706326" duration="709000" />
+      <workItem from="1614105346326" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="Initial pop">
       <created>1614015398020</created>
@@ -106,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614048855106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Replaced mis-deleted files">
+      <created>1614094473939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614094473939</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +157,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial pop" />
     <MESSAGE value="PRUNED" />
-    <option name="LAST_COMMIT_MESSAGE" value="PRUNED" />
+    <MESSAGE value="Replaced mis-deleted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced mis-deleted files" />
   </component>
 </project>
